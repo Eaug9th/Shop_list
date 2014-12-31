@@ -1,0 +1,158 @@
+/*body {
+	web font from http://fontspace.com/bythebutterfly/cutie-patootie  */
+	
+	font-family: Helvetica;
+	/*background-image: url("http://fc06.deviantart.net/fs70/i/2011/217/0/0/cork_board_by_stockopedia-d42wcjo.jpg");*/
+	background-repeat: no-repeat;
+	background-size: 100em auto;
+	background-position: center;
+	margin-top: 140px;
+} 
+.container {
+	width: 1200px;
+	margin: -100px auto;
+	border: 3px solid blue;
+}
+.input {
+	background-repeat: no-repeat;
+	border-radius: 75px;
+	border: solid;
+	text-align: left;
+	background-image: url('images/lines.png');
+	height: 47em;
+	width: 40em;
+}
+h1.float {
+	font-size: 40px;
+	color: aqua;
+}
+#item {
+	margin-top: 136px;
+	height: 30px;
+	width: 341px;
+
+}
+#butOne {
+	height: 24px;
+	width: 24px;
+	background: none;
+	font-size: 17px;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 0 0 4px 0;
+
+}
+h2 {
+	font-size: 26px;
+	/*margin: 4px 0 0 0;*/
+	border: solid;
+	width: 496px;
+	height: auto;
+	background-color: white;
+	list-style: none;
+}
+#list {
+	margin: 15px 60px;
+	text-align: left;
+	list-style: none;
+	padding: 3em;
+	overflow: auto;
+	height: 200px;
+	width: 300px;
+}
+#list li {
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 2px dotted;
+}
+
+.none {
+	color: blue;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.box {
+	float: left;
+	margin-top: 3px;
+	margin-right: 1em;
+	height: 24px;
+	width: 25px;
+	background: url('images/checkbox1.png');
+
+}
+.Checked {
+	/* float: left; */
+	/* margin-top: 3px; */
+	/* margin-right: 1em; */
+	height: 25px;
+	width: 25px;
+	background: url('images/checkbox1.png') -28px 0;
+}
+.strike {
+	text-decoration: line-through;
+}
+.erase {
+	display: none;
+}
+.show {
+	display: inline;
+}
+
+.jewel {
+	margin: 300px auto;
+	border: 3px solid red;
+}
+
+#demoted, #demo {
+	border: 4px dotted blue;
+	width: 200px;
+	height: auto;
+	align-content: flex-start;
+}
+/*#shit_list {
+	font-family: cursive;
+	padding: 10px;
+}*/
+
+h3 {
+	padding: 20px;
+	background-color: whitesmoke;
+	text-align: justify;
+	list-style: none;
+	width: 400px;
+	height: auto;
+}
+#butThree, #shit_list {
+color: blue;
+background-size: 30px auto;
+font-size: 22px;
+position: relative;
+padding: 30px;
+border: 2px solid black;
+left: 300px;
+}
+
+#blue {
+	background-color: grey;
+	height: 200px;
+	width: 200px;
+}
+
+#myList {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border: solid;
+}
+.erase {
+	color: red;
+	width: 28px;
+	height: 21px;
+	font-size: 15px;
+	font-weight: bolder;
+	text-align: center;
+	float: right;
+	font-family: monospace;
+}

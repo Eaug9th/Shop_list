@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="application.js"></script>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+		<title>Procurement Items!</title>
+		<style type="text/css" media="screen, print">
+		</style>
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="input">
+			<!--<img id="pad-top" src="images/nail.png"/> -->
+			<h1 class="float"> Procurement Items</h1>
+			<input id="item"></input>
+			<button id="butOne" type="submit" id="add">+</button></br>
+			<h2>Drag items to sort list</h2>
+			<ul id="list">
+				<li class="items"><input type="checkbox" onClick="xFun()" id="myRadio"><span class="none">Toothpaste</span><button class="erase">X</button></li>
+				<li class="items"><input type="checkbox" onClick="xFun()" id="myRadio"><span class="none">Bandaids</span><button class="erase">X</button></li>
+				<li class="items"><input type="radio" id="myRadio"><span class="none">Crayons</span><button class="erase">X</button></li>
+			</ul>
+			</div>
+		</div>
+		
+	</body>
+</html>
+
+<!--comment    
+
+onClick="xFun()"  
+
+
+$(this).children().toggleClass('strike');
+document.getElementById('myRadio').value = false; 
+
+else {
+	$(this).children().toggleClass('strike');
+	e.preventDefault();
+	document.getElementById('myRadio').value = true;
+	}
+		
+e.preventDefault();
+
+
+			-->
+
